@@ -6,7 +6,7 @@ public class Main {
         int amount = 20;
 
         // Логика программы
-        int a = ticket / amount;
-        System.out.println(a);
+        int bonus = ticket / amount;
+        System.out.println("Количество полученных бонусов = " + bonus);
     }
 }
